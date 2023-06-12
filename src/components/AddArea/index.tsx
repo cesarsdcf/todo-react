@@ -13,7 +13,6 @@ export const AddArea = ({onEnter} : Props) => {
       onEnter(inputText);
       setInputText('');
     }
-    console.log(e.code);
   }
 
   return (
