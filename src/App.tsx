@@ -8,11 +8,7 @@ import { Item } from './types/item';
 
 
 const App = () => {
-  const [list, setList] = useState<Item[]>([
-    { id: 1, name: 'Correr na areia', done: false },
-    { id: 2, name: 'Planejar o dia', done: true },
-    { id: 3, name: 'Tomar café', done: false }
-  ]);
+  const [list, setList] = useState<Item[]>([]);
 
   const handleAddTask = (taskName: string) => {
     let newList = [...list];
