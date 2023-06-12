@@ -4,6 +4,7 @@ export const Container = styled.div`
   background-color: #17181F;
   color: #fff;
   height: 100vh;
+  padding-top: 52px;
 `;
 
 export const Area = styled.div`
